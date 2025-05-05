@@ -1,0 +1,13 @@
+JavaScript Stuff
+
+1) To convert a number to an array:
+	let digits = num.toString().split('').map(Number);
+
+2) arr.splice(2, 1); // remove 1 element at index 2
+
+3).includes(a) if element a is included in a list
+
+4).indexOf(a) returns the index of element a 
+
+5) let str = "42";
+   let num = parseInt(str);

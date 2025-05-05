@@ -1,0 +1,24 @@
+Download and extract the react app from following github url:https://github.com/jagasia/react1/tree/main
+
+open the app in vs code and run.
+
+create "Fibonacci" component and plug it in 2nd column of home page.
+
+	this component should have a text box(txtInput) and button(btnGenerate)
+	on clicking the button, it should display N number of fibonacci series displayed in unordered list in the div(divResult) placed below.
+
+create "SimpleInterestCalculator" component and plug it in 3rd column of home page.
+
+	this component accepts
+		principle
+		months
+		interest
+	and displays the result (pnr/100)
+
+	principle should be lakhs. 
+	months should be integer
+	interest should be float
+Otherwise, error message should be displayed and "calculate" button should be disabled.
+
+0 1 1 2 3 5 8 13
+

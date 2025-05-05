@@ -1,0 +1,56 @@
+1. Fix the code to determine if a given string contains all unique characters 
+You are given a partially implemented code to determine if a given string contains all unique characters. The code reads a string and calls the function buggyHasUniqueCharacters to check if the string has all unique characters. However, the function contains a bug that causes it to produce incorrect results. 
+Your task is to find and fix the bug in the buggyHasUniqueCharacters function. 
+------------------------------------------------------------------------------------------------
+2.Fix the code to count the oddness 
+Problem Statement 
+You are given an array A of size N. You can remove a number x from array A if it satisfies any one of these conditions: 
+x is even 
+There is a copy of x present in the array A which is not removed yet. 
+You need to find out what the minimum possible size of array A after doing the operations. 
+You need to correct the code in the countOddness function to get the final result. 
+
+-Function countoddness(N, A) {  
+// Fix the code here  
+// Sorting the array A 
+A.sort((a, b) => a-b);  
+let ans = 0; 
+// Counting odd elements with duplicate value 
+for (let i = 0 i < \mathbb{N} i++) { 
+if (A[i] % 2 l ==0 && A[i] I = A[i - 1] ) { 
+ans += 1;  
+} 
+} 
+return ans;  
+} 
+const N = parseInt(gets().trim()); 
+let A =[] 
+ 
+for (let j = 8 j < ∞ j++) { 
+ 
+A.push(parseInt(gets().trim())); 
+
+} 
+
+const result = countoddness (N, A); 
+----------------------------------------------------------------------------------------------------------------
+3.Create a TypeScript class for a Patient entity 
+Problem Statement 
+You need to create a TypeScript class for a Patient entity that represents an individual's medical record. 
+Tasks: 
+1. Patient Class: Create a Patient class with the following fields: 
+patientID: A unique identifier for the patient. 
+name: The name of the patient. 
+medicalCondition: A brief description of the patient's primary medical condition or ailment. 
+2. Constructor: Write a constructor for the Patient class that takes patientID, name, and medical Condition as parameters and initializes them.
+3. Methods: 
+Write a method display Details() to log the patient details to the console in the format: "Patient ID: [patientID], Name: [name], Medical Condition: [medicalCondition]". 
+Write a method has Condition (condition: string) that returns "This patient has [medicalCondition]." if the patient's medical condition matches the provided condition, otherwise it returns " This patient does not have [medicalCondition]". 
+4. Object Creation and Method Call: 
+Create an object of the Patient class, initializing it with some sample values using the constructor. 
+Call the display Details() method using the created object to display its details. 
+Use the hasCondition() method to check and log whether the patient has a specific condition, like "Asthma". |
+Requirements: 
+1. The Patient class should have fields like patientID, name, and medicalCondition. 
+2. The Patient class should have a constructor that initializes all the fields of the class. 
+3. The Patient class should have a method display Details() to display the patient's details and a method hasCondition(condition: string) to determine if they have a specific medical condition. 

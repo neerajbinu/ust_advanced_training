@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <h2> Account Opening Form</h2>
+    <form>
+        <label> Full Name:</label>
+        <input type="text" id="fullName" name="fullName"><br><br>
+
+        <label>Date Of Birth:</label>
+        <input type="date" id="dob" name="dob"><br> <br>
+
+        <!--Radio button-->
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br><br>
+
+        <!--Textarea-->
+        <label for="address">Address:</label>
+        <textarea name="address" rows="4" cols="4" id="address"></textarea> <br><br>
+
+        <!--Dropdown-->
+        <label for="nationality">Nationality:</label>
+        <select id="nationality" name="nationality">
+            <option value="india">India</option>
+            <option value="others">Others</option>
+        </select><br><br>
+
+        <!--Checkbox-->
+        <label>Previous Loans in the same Bank</label>
+        <label for="yes_loans">Yes</label>
+        <input type="checkbox" id="yes_loans" name="previous_loans" value="yes">
+        <label for="no_loans">No</label>
+        <input type="checkbox" id="no_loans" name="previous_loans" value="no">
+        <br><br>
+
+        <!--Dropdown - Choosing an account-->
+        <label for="account_type">Account Type</label>
+        <select id="account_type" name="account_type">
+            <option value="savings" >Savings</option>
+            <option value="current" >Current</option>
+        </select>
+        <br><br>
+
+        <label for="initialDeposit">Intial Deposit</label>
+        <input type="number" name="initialDeposit" id="initialDeposit">
+        <br><br>
+
+        <label>I agree to the Terms and Conditions</label>
+        <label for="yes_terms_and_conditions">Yes</label>
+        <input type="checkbox" name="termsAndConditions" id="yes_terms_and_conditions" value="yes">
+        <label for="no_terms_and_conditions">No</label>
+        <input type="checkbox" name="termsAndConditions" id="no_terms_and_conditions" value="no">
+        <br><br>
+
+        <label>I am a Human</label>
+        <label for="yes_human">Yes</label>
+        <input type="radio" id="yes_human" name="i_am_a_human" value="yes">
+        <label for="no_human">No</label>
+        <input type="radio" id="no_human" name="i_am_a_human" value="no">
+        <br><br>
+        
+    </form> 
+
+    <script src="index.js"></script>
+</body>
+</html>
