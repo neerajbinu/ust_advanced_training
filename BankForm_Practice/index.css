@@ -1,0 +1,48 @@
+form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #fff;
+            margin: 0 auto;
+
+            padding: 10px;
+        }
+
+        div {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            margin: 4rem auto;
+        }
+
+        label {
+            width: 20%;
+            font-size: 1.2rem;
+        }
+
+        select {
+            width: 20%;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .deposit {
+            background-color: #13801f;
+        }
+
+        .withdrawl {
+            background-color: #801313;
+        }
